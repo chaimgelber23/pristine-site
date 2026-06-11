@@ -790,6 +790,7 @@ export function AnimatedPortfolioSection() {
                 className="group block rounded-2xl overflow-hidden border border-border bg-card hover:border-accent/40 hover:shadow-xl hover:shadow-black/10 transition-all duration-500 hover:-translate-y-1"
               >
                 <div className="aspect-[4/3] bg-card overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={site.screenshot}
                     alt={`${site.name} homepage screenshot`}

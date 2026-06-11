@@ -255,7 +255,6 @@ export function BeforeAfterScrollingMockup({
                 // Real screenshot — auto-pans top→bottom to reveal full-page
                 // captures that are usually taller than the viewport.
                 <motion.img
-                  // eslint-disable-next-line @next/next/no-img-element
                   src={before.image}
                   alt={before.alt || "Before — real prospect site we'd transform"}
                   className="absolute inset-x-0 top-0 w-full will-change-transform"

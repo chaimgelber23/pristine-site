@@ -1108,6 +1108,7 @@ export function HeroWebsiteMockup() {
   // — don't wait on measurement. ResizeObserver corrects it after.
   const [scrollDistance, setScrollDistance] = useState(FALLBACK_SCROLL_PX);
 
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
 
   // Measure on mount + on resize. Uses useLayoutEffect so it runs before

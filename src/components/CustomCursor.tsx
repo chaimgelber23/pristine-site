@@ -25,6 +25,7 @@ export default function CustomCursor() {
       "ontouchstart" in window ||
       navigator.maxTouchPoints > 0 ||
       window.matchMedia("(pointer: coarse)").matches;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsTouchDevice(isTouch);
     if (isTouch) return;
 
